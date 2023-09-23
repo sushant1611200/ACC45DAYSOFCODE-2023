@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int T, N;
+    scanf("%d", &T); // Read the number of test cases
+
+    while (T--) {
+        scanf("%d", &N); // Read the number of friends
+
+        int cars = (N + 43) / 44; // Calculate the minimum number of cars required
+        printf("%d\n", cars); // Output the result
+    }
+
+    return 0;
+}
